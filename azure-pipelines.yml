@@ -18,6 +18,5 @@ steps:
   
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: '<Azure service connection>'
-    appName: '<Name of web app>'
-    package: $(System.DefaultWorkingDirectory)/**/*.zip
+    azureSubscription: 'jknight22@my.whitworth.edu'
+    appName: 'UniSearch'
